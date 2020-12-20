@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.main.ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:orientation="vertical"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="48dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/empowering_people_through_programming"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/home_text_2"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/button_bg"
+                android:paddingHorizontal="64dp"
+                android:text="@string/tbHome"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/button_corner_stroke"
+                android:paddingHorizontal="64dp"
+                android:text="@string/tingkatkan_skill_anda"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:gravity="center"
+                android:text="@string/partner_eksklusif_kami"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+                android:padding="24dp"
+                app:carouselBackground="@color/orange"
+                android:id="@+id/imgCarousel"
+                app:imageScaleType="fitCenter"
+                app:showNavigationButtons="false"
+                app:showCaption="false"
+                app:showIndicator="false"
+                app:carouselType="BLOCK"
+                app:autoPlay="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="48dp"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="@string/apa_yang_refactory_dapat_bantu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/ivC1"
+                android:layout_marginTop="48dp"
+                android:layout_gravity="center"
+                android:layout_width="96dp"
+                android:layout_height="96dp"/>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans_semibold"
+                android:gravity="center"
+                android:text="@string/memperkuat_tim_engineering_anda"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:text="@string/homeC1"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/ivC2"
+                android:layout_marginTop="48dp"
+                android:layout_gravity="center"
+                android:layout_width="96dp"
+                android:layout_height="96dp"/>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans_semibold"
+                android:gravity="center"
+                android:text="@string/wujudkan_software_impian_anda"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:text="@string/homeC2"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/white"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="48dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/insight_terbaru"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="@string/knowledge_sharing"
+                android:fontFamily="@font/open_sans_bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:textSize="28sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="48dp"
+                android:text="@string/lihat_semua"
+                android:textSize="18sp"
+                android:textColor="@color/blue"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:drawableEndCompat="@drawable/arrow_next"
+                app:drawableTint="@color/blue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/as_seen_on"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/open_sans_bold"
+                android:textSize="32sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="32dp"
+                android:id="@+id/rvAsSeen"
+                android:isScrollContainer="false"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                android:orientation="vertical"
+                app:spanCount="2"
+                tools:listitem="@layout/item_as_seen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/footer_satu"/>
+    </LinearLayout>
+
+</ScrollView>

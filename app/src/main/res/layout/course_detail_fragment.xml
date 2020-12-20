@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".view.main.ui.course_detail.CourseDetailFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="24dp"
+            android:orientation="vertical"
+            android:background="@color/blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/html"
+                android:gravity="center"
+                android:textSize="32sp"
+                android:fontFamily="@font/open_sans_bold"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="@string/tx1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/button_bg"
+                android:backgroundTint="@color/orange"
+                android:paddingHorizontal="32dp"
+                android:text="@string/mulai_belajar"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/tentang_course"
+                android:textSize="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/aboutCourse"
+                android:layout_marginTop="24dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Materi Course"
+                android:layout_marginTop="48dp"
+                android:textSize="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="16dp"
+                android:nestedScrollingEnabled="false"
+                android:id="@+id/rvMateriCourse"
+                tools:itemCount="1"
+                tools:listitem="@layout/item_materi_course"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/imageHtml"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/question"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:fontFamily="@font/open_sans_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="24dp"
+                android:id="@+id/answer"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <include
+            layout="@layout/footer_satu"/>
+
+    </LinearLayout>
+
+</ScrollView>

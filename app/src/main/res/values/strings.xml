@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="posisi_saat_ini">Posisi Saat Ini</string>
+    <string name="longitude">Longitude :</string>
+    <string name="latitude">Latitude :</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="user_name">User Name</string>
+    <string name="foto_profil">Foto Profil</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_courses">Courses</string>
+    <string name="menu_list_course">List Courses</string>
+    <string name="menu_detail_course">Detail Courses</string>
+    <string name="empowering_people_through_programming">Empowering People Through Programming</string>
+    <string name="home_text_2">Refactory adalah perusahaan edukasi dan teknologi yang menyediakan layanan lengkap berupa course maupun custom training yang materinya dapat disesuaikan dengan kebutuhan teknologi dan bisnis perusahaan Anda.</string>
+    <string name="tbHome">Temukan Solusi Anda</string>
+    <string name="tingkatkan_skill_anda">Tingkatkan Skill Anda</string>
+    <string name="partner_eksklusif_kami">Partner Eksklusif Kami</string>
+    <string name="apa_yang_refactory_dapat_bantu">Apa yang Refactory Dapat Bantu?</string>
+    <string name="homeC1">Bisnis di jaman modern membutuhkan keterampilan pengembangan terbaik untuk meningkatkan skala produk. Kami dapat mempersiapkan course dan juga dapat menyediakan tim yang menangani kebutuhan digital Anda.</string>
+    <string name="memperkuat_tim_engineering_anda">Memperkuat Tim Engineering Anda</string>
+    <string name="wujudkan_software_impian_anda">Wujudkan Software Impian Anda</string>
+    <string name="homeC2">Kami adalah perusahaan One-Stop IT Solution untuk proyek Anda, membantu di setiap tahap mulai dari menyusun ide, melalui desain dan pengembangan aplikasi seluler, situs web dan aplikasi desktop, hingga peluncuran produk.</string>
+    <string name="lihat_semua">Lihat Semua</string>
+    <string name="knowledge_sharing">Knowledge Sharing</string>
+    <string name="insight_terbaru">INSIGHT TERBARU</string>
+    <string name="as_seen_on">AS SEEN ON</string>
+    <string name="site_map">Site Map</string>
+    <string name="home">Home</string>
+    <string name="bootcamp">Bootcamp</string>
+    <string name="software_development">Software Development</string>
+    <string name="courses">Courses</string>
+    <string name="custom_training">Custom Training</string>
+    <string name="blog">Blog</string>
+    <string name="company_address">Company Address</string>
+    <string name="address">Jln. Palagan Tentara Pelajar KM. 9,8 Ngaglik, Kab. Sleman DI Yogyakarta 55581</string>
+    <string name="foot">2020 Refactory - All Rights Reserved - Term of Services / Privacy Policy</string>
+    <string name="no2">Septin: 0878 2080 0206</string>
+    <string name="no1">Dewita: 0857 2582 7222</string>
+    <string name="no">+62 8122 8203 381</string>
+    <string name="emM">marketing@refactory.id</string>
+    <string name="contact">Contact</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="youtube">Youtube</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="connect">Connect</string>
+    <string name="faq">FAQ</string>
+    <string name="press_kit">Press Kit</string>
+    <string name="career">Career</string>
+    <string name="about_us">About Us</string>
+    <string name="company">Company</string>
+    <string name="thCourse1">Tingkatkan skill pemrograman kapan pun, dimana pun.</string>
+    <string name="thb1">Masuk dan Mulai Belajar</string>
+    <string name="thb2">Daftar Sekarang</string>
+    <string name="tht1">We’re a brand of passionate software engineers and educators with an engaging curriculum backed by real-world software projects ready to boost your career.</string>
+    <string name="tc1">Bagaimana Refactory Course membantu meningkatkan skill anda.</string>
+    <string name="pelajari_lebih">Pelajari Lebih</string>
+    <string name="tc2">Kursus pemrograman untuk semua orang tanpa terkecuali</string>
+    <string name="tcc2">Refactory Course dirancang untuk memudahkan setiap orang mampu meningkatkan keahlian dalam software engineering tanpa dibatasi oleh kesulitan akses, kesulitan waktu, batasan keahlian, ataupun usia.</string>
+    <string name="tcc3">Dengan pembelajaran berdasarkan pengalaman nyata pengerjaan project, bagi pelajar/mahasiswa, Refactory Course akan melengkapi keahlian yang sudah diperoleh dalam studi sehingga dapat membuka kesempatan tak terbatas pada karir software engineering.</string>
+    <string name="tcc4">Bagi karyawan atau tenaga profesional, Refactory Course dapat meningkatkan keahlian software engineer dalam menunjang menyelesaikan tugas pekerjaannya tanpa khawatir dengan keterbatasan waktu.</string>
+    <string name="tcc5">Masyarakat secara luas juga dapat memanfaatkan pembelajaran untuk meningkatkan keahlian sehingga mampu berkarya dan mendapat keuntungan karir tanpa khawatir mahalnya belajar.</string>
+    <string name="daftar_sekarang">Daftar Sekarang</string>
+    <string name="meet_our_graduates">MEET OUR GRADUATES</string>
+    <string name="review">Review</string>
+    <string name="tcr1">Read what our alumni said on Course Report</string>
+    <string name="ready_to_start_learning">Ready to start learning?</string>
+    <string name="langkah_mudah">LANGKAH MUDAH</string>
+    <string name="memulai_belajar_di_refatory_course">Memulai Belajar di Refatory Course</string>
+    <string name="category">Category:</string>
+    <string name="html">HTML dan CSS Introduction</string>
+    <string name="tx1">HTML dan CSS adalah materi dasar untuk pengembangan web. Setiap web developer harus memiliki pengetahuan dasar setidaknya HTML dan CSS.</string>
+    <string name="mulai_belajar">Mulai Belajar</string>
+    <string name="tentang_course">Tentang Course</string>
+    <string name="start">Start</string>
+
+
+    <string-array name="list_course_array">
+        <item>All</item>
+        <item>Web Frontend</item>
+        <item>Backend</item>
+        <item>Web Mobile</item>
+    </string-array>
+
+</resources>
